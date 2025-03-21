@@ -1,12 +1,9 @@
 import pytest
-import time
 
 from selenium import webdriver
-from selenium.webdriver import ActionChains
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions
-from selenium.webdriver.support.wait import WebDriverWait
 
+# Example:
+# pytest .\test_e2eTestFramework.py --browser_name chrome
 def pytest_addoption(parser):
     parser.addoption(
         "--browser_name",
