@@ -8,7 +8,7 @@ def pytest_addoption(parser):
     parser.addoption(
         "--browser_name",
         action="store",
-        default="firefox",
+        default="chrome",
         help="browser selection"
     )
 
